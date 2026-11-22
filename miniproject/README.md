@@ -1,5 +1,5 @@
 # MEDICORE — Hospital Management System
-**Topic:** Build a system to manage patient records, doctor details, and appointments.
+**Topic:** Build a hospital management system to manage patient records, doctor details, and appointments.
 
 ---
 
@@ -51,6 +51,9 @@ Compile and run the C++ program directly in your terminal:
 # 1. Compile main.cpp using any standard C++17 compiler (MinGW / GCC)
 g++ -o main.exe main.cpp -std=c++17
 
+# Alternative: output a file named main.exe using the argument order shown below
+g++ main.cpp -o main -std=c++17
+
 # 2. Run the executable
 .\main.exe
 ```
@@ -91,7 +94,7 @@ http://127.0.0.1:8080
 
 ---
 
-## 🔒 Business Logic & Data Integrity
+## Logic & Data Integrity
 - **Unique ID Generation**: Automatic generation of IDs (`P001`, `D001`, `A001`) by finding the first available incremental identifier.
 - **Appointment Conflict Prevention**: The system prevents double-booking a doctor for the exact same date and time slot if an active (`Booked`) appointment exists.
 - **Referential Integrity**: A patient cannot be deleted if they currently hold an active (`Booked`) appointment.
@@ -104,5 +107,5 @@ http://127.0.0.1:8080
 ---
 
 ## 👥 Authors & Academic Context
-Developed as an Object-Oriented Programming (OOP) Laboratory Project under the syllabus topic:
+Developed as an Object-Oriented Programming (OOP) Laboratory Mini Project under the syllabus topic:
 *"Build a system to manage patient records, doctor details, and appointments."*
