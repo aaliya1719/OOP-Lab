@@ -1,1 +1,3 @@
-D001|Dr Khan|34|839470703|Cardiologist
+D001|Dr. Sharma|42|9876501234|Cardiologist
+D002|Dr. Mehta|38|9876505678|Neurologist
+D003|Dr. Ananya Roy|35|9876509988|Pediatrician
